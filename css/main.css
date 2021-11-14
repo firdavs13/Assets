@@ -154,6 +154,8 @@ img {
     margin-top: 30px;
 }
 
+/* RIGHT-LIST */
+
 .right-list{
     margin: 0;
     padding: 0;
@@ -187,8 +189,8 @@ img {
 
 .word-desc{
     margin: 0;
-    font-size: 9px;
-    font-weight: 500;
+    font-size: 12px;
+    font-weight: 600;
     color: rgba(0, 0, 0, 0.4);
 }
 
