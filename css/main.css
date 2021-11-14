@@ -54,6 +54,15 @@ img {
     background-color: #F2F2F2;
 }
 
+.left::-webkit-scrollbar {
+    width: 8px;
+}
+
+.left::-webkit-scrollbar-thumb {
+    border-radius: 15px;
+    background-color: gray;
+}
+
 .left-top{
     display: flex;
     align-items: center;
@@ -105,6 +114,15 @@ img {
     height: 400px;
     padding: 20px 30px;
     overflow: auto;
+}
+
+.right::-webkit-scrollbar {
+    width: 8px;
+}
+
+.right::-webkit-scrollbar-thumb {
+    border-radius: 13px;
+    background-color: gray;
 }
 
 .right-top{
