@@ -1,6 +1,9 @@
+
+/* GENERAL-CSS */
+
+*,
 *::after,
-*::before,
-*{
+*::before{
     box-sizing: border-box;
 }
 
@@ -31,6 +34,8 @@ img {
     clip: rect(0 0 0 0)
 }
 
+/* WRAPPER */
+
 .wrapper {
     padding: 80px 260px 145px;
     background-color: #F7CD75;
@@ -40,17 +45,18 @@ img {
     display: flex;
     width: 800px;
     height: 400;
-    background-color: #fff;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color: #fff;
 }
 
+/* LEFT-SECTION */
 
 
 .left{
     width: 300px;
     height: 400px;
-    overflow: auto;
     padding: 25px;
+    overflow: auto;
     background-color: #F2F2F2;
 }
 
@@ -59,7 +65,7 @@ img {
 }
 
 .left::-webkit-scrollbar-thumb {
-    border-radius: 15px;
+    border-radius: 13px;
     background-color: gray;
 }
 
@@ -108,6 +114,8 @@ img {
     font-size: 14px;
     font-weight: 600;
 }
+
+/* RIGHT-SECTION */
 
 .right{
     width: 500px;
@@ -198,3 +206,5 @@ img {
 .right-item:nth-child(even) .number{
     color: chartreuse;
 }
+
+/* FINISH */
